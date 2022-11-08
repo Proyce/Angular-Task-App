@@ -1,0 +1,20 @@
+.main-container {
+  background-image: url("/assets/images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.todo-container{
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  color: #ffffff;
+}
+
+.todo-banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
