@@ -1,1 +1,6 @@
-<p>todo works!</p>
+<li class="todo-item">
+  <div class="todo-bar">
+    <div [ngClass]="{'check-icon': isChecked}" class="check-icon" (click)="toggleChecked()">
+    </div>
+  </div>
+</li>

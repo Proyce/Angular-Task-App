@@ -1,0 +1,37 @@
+.todo-input {
+  width: 100%;
+  /* width: 400px; */
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  padding: 10px 10px 10px 55px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+input.todo-input:focus {
+  outline: none;
+}
+
+.add-todo {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  position: relative;
+  top: 35px;
+  left: 20px;
+  z-index: 2;
+  border-radius: 50%;
+  color: #ddd;
+}
+
+.icon-container {
+  background-image: url('/assets/images/icon-check.svg'), linear-gradient( 145deg, rgba(116, 185, 252, 1) 4%, rgba(163, 125, 244, 1) 96% );
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
